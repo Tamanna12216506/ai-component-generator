@@ -1,0 +1,23 @@
+[
+  {
+    "id": "button_primary",
+    "type": "button",
+    "label": "Primary Button",
+    "tags": ["button", "primary", "form"],
+    "template": "<button class='bg-blue-500 text-white px-4 py-2 rounded'>Click Me</button>"
+  },
+  {
+    "id": "card_basic",
+    "type": "card",
+    "label": "Basic Card",
+    "tags": ["card", "info"],
+    "template": "<div class='p-4 bg-white shadow rounded'>This is a card</div>"
+  },
+  {
+    "id": "navbar_simple",
+    "type": "navbar",
+    "label": "Simple Navbar",
+    "tags": ["navbar", "header"],
+    "template": "<nav class='bg-gray-800 text-white p-4'>My Navbar</nav>"
+  }
+]
