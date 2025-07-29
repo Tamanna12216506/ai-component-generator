@@ -1,5 +1,4 @@
 // src/pages/Home.tsx
-import React from "react";
 import Navbar from "../components/Navbar";
 import ChatPanel from "../components/ChatPanel";
 import ComponentPreview from "../components/ComponentPreview";
@@ -12,9 +11,11 @@ const Home = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-6">
         <div className="space-y-4">
           <ChatPanel />
-          <CodePreview />
+                    <CodePreview code="// sample code here" />
+
         </div>
-        <ComponentPreview />
+        <ComponentPreview code="<Button>Click</Button>" />
+
       </div>
     </div>
   );
